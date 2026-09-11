@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.02"
+const VERSION = "1.03"
 
 /** Nombre del archivo de cache. */
 const CACHE = "ejemploPWA"
