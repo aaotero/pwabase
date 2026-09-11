@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.03"
+const VERSION = "1.04"
 
 /** Nombre del archivo de cache. */
 const CACHE = "ejemploPWA"
@@ -49,6 +49,7 @@ if (self instanceof ServiceWorkerGlobalScope) {
  self.addEventListener("install",
   (/** @type {ExtendableEvent} */ evt) => {
    console.log("El service worker se está instalando.")
+   self.skipWaiting()
    evt.waitUntil(llenaElCache())
   })
 
@@ -61,7 +62,10 @@ if (self instanceof ServiceWorkerGlobalScope) {
 
  // Evento cuando el service worker se vuelve activo.
  self.addEventListener("activate",
-  () => console.log("El service worker está activo."))
+  (/** @type {ExtendableEvent} */ evt) => {
+   console.log("El service worker está activo.")
+   evt.waitUntil(self.clients.claim())
+  })
 }
 
 async function llenaElCache() {
