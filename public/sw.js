@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.04"
+const VERSION = "1.06"
 
 /** Nombre del archivo de cache. */
 const CACHE = "ejemploPWA"
@@ -27,16 +27,16 @@ const CACHE = "ejemploPWA"
 const ARCHIVOS = [
   "css/estilos.css",
   "favicon.ico",
-  "img/maskable_icon.png",
-  "img/maskable_icon_x128.png",
-  "img/maskable_icon_x192.png",
-  "img/maskable_icon_x384.png",
-  "img/maskable_icon_x48.png",
-  "img/maskable_icon_x512.png",
-  "img/maskable_icon_x72.png",
-  "img/maskable_icon_x96.png",
-  "img/screenshot_horizontal.png",
-  "img/screenshot_vertical.png",
+  "img/digitalsquadmaskable_icon.png",
+  "img/digitalsquadmaskable_icon_x128.png",
+  "img/digitalsquadmaskable_icon_x192.png",
+  "img/digitalsquadmaskable_icon_x384.png",
+  "img/digitalsquadmaskable_icon_x48.png",
+  "img/digitalsquadmaskable_icon_x512.png",
+  "img/digitalsquadmaskable_icon_x72.png",
+  "img/digitalsquadmaskable_icon_x96.png",
+  "img/HorizontalScreenshot_DigitalSquad.png",
+  "img/VerticalScreenshot_DigitalSquad.png",
   "index.html",
   "js/registraServiceWorker.js",
   "site.webmanifest",
