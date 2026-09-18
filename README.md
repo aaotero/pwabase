@@ -1,2 +1,2 @@
-# pwabasw
-Ejwmplo de pwa
+# DigitalSquad
+Aplicación PWA de DigitalSquad
