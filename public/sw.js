@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.07"
+const VERSION = "1.08"
 
 /** Nombre del archivo de cache. */
 const CACHE = "ejemploPWA"
@@ -39,7 +39,7 @@ const ARCHIVOS = [
   "img/VerticalScreenshot_DigitalSquad.png",
   "index.html",
   "js/registraServiceWorker.js",
-  "site.webmanifest",
+  "site.webmanifest?v=2",
   "/"
 ]
 
